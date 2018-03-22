@@ -1,25 +1,31 @@
-Name: My new free api key
-Plan: community
-Status: ACTIVE
-Key: 7LRyPFW5Ei3JYTJin
-Created: Wed Feb 14 2018 13:10:55 GMT-0800 (PST)
-Expires in: 365 days
+# air-quality
 
-Calls (day): 0
-Calls (month): 0
-(Updates every 5 minutes)
+air quality api project, 2/14/2018
 
-http://api.airvisual.com/v2/city?city=Moscow&state=Moscow&country=Russia&key=7LRyPFW5Ei3JYTJin
-http://api.airvisual.com/v2/city?city=Portland&state=Oregon&country=USA&key=7LRyPFW5Ei3JYTJin
+**By Natalia Telpukhova**
 
-http://api.airvisual.com/v2/city?city=Beijing&state=Beijing&country=China&key=7LRyPFW5Ei3JYTJin
+## Description
 
-http://api.airvisual.com/v2/cities?state=Moscow&country=Russia&key=7LRyPFW5Ei3JYTJin
-export class apiKey {
-  constructor() {
-    this.key = '7LRyPFW5Ei3JYTJin';
-  }
-  static getKey() {
-  return '7LRyPFW5Ei3JYTJin';
-  }
-}
+An application that connects to air-quality api, retrieves and displays information.
+
+## Setup
+
+* clone repository
+```
+$ git clone https://github.com/telpuhova/galactic-age-calculator.git
+```
+* go into the cloned repo and run the following commands from your terminal:
+```
+$ npm install
+$ bower install
+$ gulp build --production
+$ gulp serve
+```
+
+## Technologies Used
+
+HTML, CSS, JavaScript, Node, npm, gulp, jasmine, karma, Bootstrap, jQuery
+
+## License
+
+Copyright (c) 2018 Natalia Telpukhova
